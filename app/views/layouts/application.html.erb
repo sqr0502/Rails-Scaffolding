@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Todo1</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+  integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+  crossorigin="anonymous">
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <div class="navbar navbar-fixed-top">
+    <div class='container'>
+    <a href='/' class='navbar-brand'>One Stop</a>
+      <ul class='nav navbar-nav navbar-right'>
+        <li><a href='index.html'>Projects</a></li>
+        <li><a href='projects.html'>About</a></li>
+        <li><a href='contact.html'>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  </div>
+
+<%= yield %>
+
+</body>
+</html>

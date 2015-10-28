@@ -1,0 +1,6 @@
+#home  {
+  background-image: url('daisy.png');
+  /*background-position: top;*/
+  background-repeat: no-repeat;
+  background-size: cover;
+}
